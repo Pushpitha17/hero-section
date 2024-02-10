@@ -4,7 +4,7 @@ function HeroSection({ imgPath, titleText, subText }) {
   return (
     <div className='max-w-screen-2xl	 ml-auto'>
       <div className='flex h-dvh'>
-        <div className='text-white z-10  w-1/2 h-full' style={{ margin: "24% 0 0 8%" }}>
+        <div className='text-white z-10  w-1/2' style={{ margin: "24% 0 0 8%" }}>
           <div className='relative max-w-96'>
             <p className='text-3xl font-bold'>{titleText}</p>
             <div className='mt-10 text-sm max-w-80'>
